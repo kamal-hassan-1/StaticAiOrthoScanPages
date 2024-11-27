@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Diagnosis</title>
+    <link rel="stylesheet" href="MdiagnosisStyle.css">
+</head>
+<body>
+    <div class="top-bar">
+        <button class="attach-btn">📎 Attach</button>
+        <input type="text" class="details-input" placeholder="Insert any relevant details about the files...">
+        <button class="settings-btn">⚙ Settings</button>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+
+        <!-- Scan Details -->
+        <div class="scan-details">
+            <div class="scan-images">
+                <div class="user-icon">👤</div>
+                <img src="images/Elbow AI enhanced.jpg" alt="X-ray" class="scan-image">
+            </div>
+            <div class="completionOfScan" id="loadingIcon">
+                <img src="images/icons8-loading-100.png" alt="loadingIcon">
+                <div class="scan-status">Scan uploaded and processed successfully</div>
+            </div>
+            <p class="diagnosis-text">
+                The scan reveals a non-displaced fracture of the proximal ulna, located near the elbow joint. 
+                The fracture line is clean, with no signs of displacement or bone fragmentation. 
+                Surrounding soft tissues, including the ligaments and muscles, appear intact with no significant 
+                swelling or inflammation detected. The joint space remains well-preserved, and no signs of 
+                additional fractures or dislocation are present.
+            </p>
+            <button class="treatment-btn">Treatment</button>
+        </div>
+    </div>
+
+    <script src="MdiagnosisScript.js"></script>
+</body>
+</html>
